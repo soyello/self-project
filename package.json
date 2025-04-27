@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "echo 'no build needed'",
+    "start": "npx json-server --watch db.json --port 3001",
     "lint": "next lint"
   },
   "dependencies": {
