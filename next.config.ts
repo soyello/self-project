@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  output: 'standalone',
 
   // topLevelAwait 경고 방지용
   webpack: (config, { isServer }) => {
