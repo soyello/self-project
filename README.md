@@ -36,19 +36,6 @@
 
 ---
 
-## 테스트 계정 안내
-
-테스트용 로그인 계정을 제공합니다.
-
-| 구분                | 아이디 (Email)    | 비밀번호 (Password) | 권한 (Role) |
-| :------------------ | :---------------- | :------------------ | :---------- |
-| 관리자 계정 (Admin) | admin@example.com | 12345               | Admin       |
-| 사용자 계정 (User)  | user5@example.com | 12345               | User        |
-
-> ※ 해당 계정들은 테스트용으로만 제공되며, 별도의 개인정보는 저장되지 않습니다.
-
----
-
 ## 화면 예시
 
 ### 메인 페이지
@@ -80,8 +67,51 @@
 ---
 
 ## 배포 링크 (Deployments)
+Netlify와 Railway 각각의 한계로 서로 연결되지 않은 배포 링크입니다. 전체적인 UI 확인만 가능합니다.
 
-- 프론트엔드 (Netlify): [바로가기](https://your-project.netlify.app)
-- 백엔드 API (Railway): [바로가기](https://your-api.up.railway.app)
+- 프론트엔드 (Netlify): [바로가기](https://golden-malabi-b38f13.netlify.app/)
+- 백엔드 API (Railway): [바로가기](https://self-project-production.up.railway.app/)
 
-> 위 링크를 통해 별도 설치 없이 바로 실행 가능합니다.
+---
+
+## 프로젝트 실행 방법
+1. 프로젝트 클론
+   ```
+   git clone https://github.com/soyello/self-project.git
+   cd self-project
+   ```
+2. 의존성 설치
+   ```
+   pnpm install
+   ```
+3. 환경변수 설정
+   프로젝트 루트에 `.env.local` 파일을 생성하고 다음 내용을 입력합니다.
+   ```
+   NEXT_PUBLIC_API_URL=https://self-project-production.up.railway.app
+   ```
+   주의: `.env.local`파일은 직접 만들어야하며, github에 포함되어있지 않습니다.
+4. JSON-Server 실행
+   ```
+   pnpm start
+   ```
+   `db.json`을 기반으로 로컬 서버가 구동됩니다.
+5. Next.js 개발 서버 실행
+   ```
+   pnpm run dev
+   ```
+
+---
+
+## 테스트 계정 안내
+
+테스트용 로그인 계정을 제공합니다.
+
+| 구분                | 아이디 (Email)    | 비밀번호 (Password) | 권한 (Role) |
+| :------------------ | :---------------- | :------------------ | :---------- |
+| 관리자 계정 (Admin) | admin@example.com | 12345               | Admin       |
+| 사용자 계정 (User)  | user5@example.com | 12345               | User        |
+
+> ※ 해당 계정들은 테스트용으로만 제공되며, 별도의 개인정보는 저장되지 않습니다.
+
+---
+   
