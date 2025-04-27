@@ -74,7 +74,7 @@ Netlify와 Railway 각각의 한계로 서로 연결되지 않은 배포 링크�
 
 ---
 
-## 프로젝트 실행 방법
+## 프로젝트 실행 방법 (VSCode에서 실행합니다.)
 1. 프로젝트 클론
    ```
    git clone https://github.com/soyello/self-project.git
