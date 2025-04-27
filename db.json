@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "12345",
+      "role": "admin",
+      "name": "Alice",
+      "joined_date": "2024-01-01T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "password": "12345",
+      "role": "admin",
+      "name": "Bob",
+      "joined_date": "2024-01-05T12:00:00Z"
+    },
+    {
+      "id": "3",
+      "email": "user3@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Charlie",
+      "joined_date": "2024-01-10T12:00:00Z"
+    },
+    {
+      "id": "4",
+      "email": "user4@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Diana",
+      "joined_date": "2024-01-15T12:00:00Z"
+    },
+    {
+      "id": "5",
+      "email": "user5@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Ethan",
+      "joined_date": "2024-01-20T12:00:00Z"
+    },
+    {
+      "id": "6",
+      "email": "user6@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Fiona",
+      "joined_date": "2024-01-25T12:00:00Z"
+    },
+    {
+      "id": "7",
+      "email": "user7@example.com",
+      "password": "12345",
+      "role": "admin",
+      "name": "George",
+      "joined_date": "2024-02-01T12:00:00Z"
+    },
+    {
+      "id": "8",
+      "email": "user8@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Hannah",
+      "joined_date": "2024-02-05T12:00:00Z"
+    },
+    {
+      "id": "9",
+      "email": "user9@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Ian",
+      "joined_date": "2024-02-10T12:00:00Z"
+    },
+    {
+      "id": "10",
+      "email": "user10@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Julia",
+      "joined_date": "2024-02-15T12:00:00Z"
+    },
+    {
+      "id": "11",
+      "email": "user11@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Kevin",
+      "joined_date": "2024-02-20T12:00:00Z"
+    },
+    {
+      "id": "12",
+      "email": "user12@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Laura",
+      "joined_date": "2024-02-25T12:00:00Z"
+    },
+    {
+      "id": "13",
+      "email": "user13@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Mike",
+      "joined_date": "2024-03-01T12:00:00Z"
+    },
+    {
+      "id": "14",
+      "email": "user14@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Nina",
+      "joined_date": "2024-03-05T12:00:00Z"
+    },
+    {
+      "id": "15",
+      "email": "user15@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Oscar",
+      "joined_date": "2024-03-10T12:00:00Z"
+    },
+    {
+      "id": "16",
+      "email": "user16@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Paula",
+      "joined_date": "2024-03-15T12:00:00Z"
+    },
+    {
+      "id": "17",
+      "email": "user17@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Quentin",
+      "joined_date": "2024-03-20T12:00:00Z"
+    },
+    {
+      "id": "18",
+      "email": "user18@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Rachel",
+      "joined_date": "2024-03-25T12:00:00Z"
+    },
+    {
+      "id": "19",
+      "email": "user19@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Steve",
+      "joined_date": "2024-04-01T12:00:00Z"
+    },
+    {
+      "id": "20",
+      "email": "user20@example.com",
+      "password": "12345",
+      "role": "user",
+      "name": "Tina",
+      "joined_date": "2024-04-05T12:00:00Z"
+    }
+  ],
+  "notices": [
+    {
+      "id": "2",
+      "pinned": false,
+      "category_code": "MANUAL",
+      "title": "Notice 2",
+      "content": "This is notice number 2.",
+      "created_at": "2025-04-27T04:32:41.480Z",
+      "writer": "admin@example.com"
+    },
+    {
+      "id": "3",
+      "title": "Notice 3",
+      "content": "This is notice number 3.",
+      "created_at": "2024-04-20T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": false,
+      "writer": "admin@example.com"
+    },
+    {
+      "pinned": false,
+      "category_code": "C002",
+      "title": "Notice 4",
+      "content": "This is notice number 4.",
+      "updatedAt": "2025-04-26T13:42:24.731Z",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "title": "Notice 5",
+      "content": "This is notice number 5.",
+      "created_at": "2024-04-18T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "6",
+      "title": "Notice 6",
+      "content": "This is notice number 6.",
+      "created_at": "2024-04-17T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": true,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "7",
+      "title": "Notice 7",
+      "content": "This is notice number 7.",
+      "created_at": "2024-04-16T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "8",
+      "title": "Notice 8",
+      "content": "This is notice number 8.",
+      "created_at": "2024-04-15T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "9",
+      "title": "Notice 9",
+      "content": "This is notice number 9.",
+      "created_at": "2024-04-14T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": true,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "10",
+      "title": "Notice 10",
+      "content": "This is notice number 10.",
+      "created_at": "2024-04-13T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "11",
+      "title": "Notice 11",
+      "content": "This is notice number 11.",
+      "created_at": "2024-04-12T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "12",
+      "title": "Notice 12",
+      "content": "This is notice number 12.",
+      "created_at": "2024-04-11T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": true,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "13",
+      "title": "Notice 13",
+      "content": "This is notice number 13.",
+      "created_at": "2024-04-10T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "14",
+      "title": "Notice 14",
+      "content": "This is notice number 14.",
+      "created_at": "2024-04-09T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "15",
+      "title": "Notice 15",
+      "content": "This is notice number 15.",
+      "created_at": "2024-04-08T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": true,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "16",
+      "title": "Notice 16",
+      "content": "This is notice number 16.",
+      "created_at": "2024-04-07T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "17",
+      "title": "Notice 17",
+      "content": "This is notice number 17.",
+      "created_at": "2024-04-06T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": true,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "18",
+      "title": "Notice 18",
+      "content": "This is notice number 18.",
+      "created_at": "2024-04-05T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "19",
+      "title": "Notice 19",
+      "content": "This is notice number 19.",
+      "created_at": "2024-04-04T12:00:00Z",
+      "category_code": "NOTICE",
+      "pinned": false,
+      "writer": "user2@example.com"
+    },
+    {
+      "id": "20",
+      "title": "Notice 20",
+      "content": "This is notice number 20.",
+      "created_at": "2024-04-03T12:00:00Z",
+      "category_code": "MANUAL",
+      "pinned": true,
+      "writer": "user2@example.com"
+    },
+    {
+      "pinned": true,
+      "category_code": "NOTICE",
+      "title": "hello!",
+      "content": "hello",
+      "created_at": "2025-04-26T14:32:22.919Z",
+      "writer": "admin@example.com",
+      "id": "21"
+    },
+    {
+      "id": "22",
+      "pinned": false,
+      "category_code": "MANUAL",
+      "title": "hello",
+      "content": "hi",
+      "created_at": "2025-04-26T14:25:44.084Z",
+      "writer": "admin@example.com"
+    },
+    {
+      "id": "23",
+      "pinned": false,
+      "category_code": "MANUAL",
+      "title": "Nice to meet you",
+      "content": "Nice to meet you too!",
+      "created_at": "2025-04-27T07:43:28.910Z",
+      "writer": "admin@example.com"
+    },
+    {
+      "id": "24",
+      "pinned": false,
+      "category_code": "MANUAL",
+      "title": "Test",
+      "content": "Test",
+      "created_at": "2025-04-27T08:01:04.453Z",
+      "writer": "user3@example.com"
+    }
+  ]
+}

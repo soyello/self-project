@@ -1,0 +1,20 @@
+:root {
+  /* Primary */
+  --primary-red-90: #2e0f0f;
+  --primary-red-80: #551c1c;
+  --primary-red-70: #754040;
+  --primary-red-60: #9f5a5a;
+  --primary-red-50: #a33535;
+  --primary-red-30: #c49090;
+  --primary-red-10: #f5e0e0;
+
+  /* Secondary */
+  --secondary-E6: #e6dddd;
+  --secondary-F0: #f0e5e5;
+  --secondary-F8: #f8f1f1;
+
+  /* Grayscale */
+  --gray-90: #484848;
+  --gray-70: #8e8e8e;
+  --gray-50: #c1c1c1;
+}
