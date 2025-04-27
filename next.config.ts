@@ -1,9 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactStrictMode: true,
-  output: "standalone",
+  output: 'export',
 
   // topLevelAwait 경고 방지용
   webpack: (config, { isServer }) => {
@@ -13,7 +12,6 @@ const nextConfig: NextConfig = {
         asyncFunction: true,
       };
     }
-
     return config;
   },
 };
