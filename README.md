@@ -70,7 +70,7 @@
 Netlify와 Railway 각각의 한계로 서로 연결되지 않은 배포 링크입니다. 전체적인 UI 확인만 가능합니다.
 
 - 프론트엔드 (Netlify): [바로가기](https://golden-malabi-b38f13.netlify.app/)
-- 백엔드 API (Railway): [바로가기](https://self-project-production.up.railway.app/)
+- 백엔드 API (Railway): [바로가기](https://self-project-production.up.railway.app/) - 현재 사용 불가
 
 ---
 
@@ -87,7 +87,7 @@ Netlify와 Railway 각각의 한계로 서로 연결되지 않은 배포 링크�
 3. 환경변수 설정
    프로젝트 루트에 `.env.local` 파일을 생성하고 다음 내용을 입력합니다.
    ```
-   NEXT_PUBLIC_API_URL=https://self-project-production.up.railway.app
+   NEXT_PUBLIC_API_URL=http://localhost:3001
    ```
    주의: `.env.local`파일은 직접 만들어야하며, github에 포함되어있지 않습니다.
 4. JSON-Server 실행
